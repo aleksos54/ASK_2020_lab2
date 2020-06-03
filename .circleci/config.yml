@@ -23,6 +23,6 @@ jobs:
           working_directory: ./client
          
 workflows:
-    build-and-test-server:
+    build-and-test:
       jobs:
-        - build-and-test-server
+        - build-and-test
